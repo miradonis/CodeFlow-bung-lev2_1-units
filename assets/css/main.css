@@ -18,7 +18,7 @@ body p {
 
 section {
     border: 2px solid black;
-    width: 30vw;
+    width: 29vw;
     margin: 2vh 0 0 1vw;
 }
 
@@ -57,6 +57,10 @@ section .snake li::before {
 
 section .lizzard li::before {
     content: '🦎';
+}
+
+.pet {
+    margin: 0;
 }
 
 
