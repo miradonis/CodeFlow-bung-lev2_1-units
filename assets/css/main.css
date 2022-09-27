@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h1 {
+    text-align: left;
+    font-family: sans-serif;
+    margin: 3vh 0 2vh 1vw;
+}
+
+body p {
+    width: 30vw;
+    font-size: .8rem;
+    margin-left: 1vw;
+}
+
+section {
+    border: 2px solid black;
+    width: 30vw;
+    margin: 2vh 0 0 1vw;
+}
+
+.complete_list {
+    margin: 1vw 0 1vw 1vw;
+    padding: 0;
+}
+
+ul {
+    padding-inline-start: 1.2em;
+    padding: 0;
+    margin-left: 1vw;
+}
+
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    list-style: none;
+}
+
+section .dog li::before {
+    content:'🐶';
+}
+
+section .cat li::before {
+    content: '🐱';
+}
+
+section .parrot li::before {
+    content: '🦜';
+}
+
+section .snake li::before {
+    content: '🐍';
+}
+
+section .lizzard li::before {
+    content: '🦎';
+}
+
+
